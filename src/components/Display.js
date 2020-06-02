@@ -24,8 +24,9 @@ export class Display extends Component {
           <div className="slider-background" onClick={this.toggleSlider}>
             <div className={`slider-${this.state.slider}`}></div>
           </div>
-
-          <p className="chord-name">Chord A</p>
+          
+        {/* Display the sound name coming from Drumpad component via Parent Component */}
+          <p className="chord-name">{this.props.soundname}</p>
           <input
             className="volume-slider"
             type="range"

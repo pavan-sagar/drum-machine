@@ -1,11 +1,11 @@
 .App {
   text-align: center;
   display: flex;
-  background-color:white;
+  background-color: white;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url('https://publicdomainvectors.org/download.php?file=TheresaKnott_Drum_Kit_3.svg');
+  background-image: url("https://publicdomainvectors.org/download.php?file=TheresaKnott_Drum_Kit_3.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -15,8 +15,6 @@
   display: flex;
   padding: 2rem;
   border: 2px solid black;
-  max-width:90%;
-  background-color:rgba(5, 5, 5, 0.658) ;
-  
-
+  max-width: 90%;
+  background-color: rgba(5, 5, 5, 0.658);
 }
