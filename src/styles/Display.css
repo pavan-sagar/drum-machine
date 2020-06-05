@@ -4,7 +4,7 @@
   margin-left: 4rem;
 }
 
-.slider-background {
+.power_slider-background {
   background-color: black;
   width: 3rem;
   height: 1.6rem;
@@ -12,22 +12,25 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2.5rem;
+  
 }
 
-.slider-on {
-  background-color: midnightblue;
+.power_slider-on {
+  background-color: rgb(233, 16, 16);
   width: 1.2rem;
   height: 1.2rem;
   margin: 0.2rem 0.2rem 0.2rem 0;
   float: right;
+  
 }
 
-.slider-off {
-  background-color: midnightblue;
+.power_slider-off {
+  background-color: rgb(120, 120, 124);
   width: 1.2rem;
   height: 1.2rem;
   margin: 0.2rem 0rem 0.2rem 0.2rem;
   float: left;
+  transition: background-color 0.2s ease, margin-right 03s ease;
 }
 
 .power-label {
@@ -41,6 +44,7 @@
   margin: 0 auto 2rem auto;
   width: fit-content;
   color: rgba(255, 255, 255, 0.863);
+  font-weight: 500;
 }
 
 .volume-slider {

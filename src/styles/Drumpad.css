@@ -17,3 +17,6 @@
 .d-btn:active {
   background-color: steelblue;
 }
+.buttonPressed {
+  background-color: steelblue;
+}
