@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "DiscoFont";
+  src: url("../assets/DISKOTEQUE.TTF");
+}
+
 .Drumpad {
   display: flex;
   width: 15rem;
@@ -9,7 +14,11 @@
   width: 4.5rem;
   height: 4.5rem;
   margin-top: 0.5rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+
+  font-family: "DiscoFont";
+  color: rgb(57, 25, 95);
+  font-weight: 600;
   border-radius: 0.4rem;
   transition: background-color 0.1s;
 }

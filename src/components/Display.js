@@ -64,14 +64,17 @@ export class Display extends Component {
           <p className="chord-name">
             {this.state.power_slider == "on" ? this.state.displayValue : ""}
           </p>
-          <input
-            className="volume-slider"
-            type="range"
-            min="0"
-            max="100"
-            step="1"
-            onChange={this.displayVolumeLevel}
-          disabled={this.state.power_slider == 'on' ? '' : 'disabled'}></input>
+          <div class="vol-slider-container">
+            <input
+              className="volume-slider"
+              type="range"
+              min="0"
+              max="100"
+              step="1"
+              onChange={this.displayVolumeLevel}
+              disabled={this.state.power_slider == "on" ? "" : "disabled"}
+            ></input>
+          </div>
         </div>
       </div>
     );
