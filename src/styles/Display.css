@@ -70,3 +70,14 @@
 .volume-slider:hover {
   opacity: 1;
 }
+
+@media (max-width: 689px) {
+  .Display {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .volume-slider {
+    max-width: 75vw;
+  }
+}
